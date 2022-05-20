@@ -14,6 +14,7 @@ public class MainImperative {
         ///////////////////////////////////////////////////////////////////////
         // List all
         //
+        System.out.println("\nList all the persons:");
         people.forEach(System.out::println);
 
 
@@ -31,6 +32,10 @@ public class MainImperative {
         }
 
         females.forEach(System.out::println);
+
+        ///////////////////////////////////////////////////////////////////////
+        // TODO: etc etc etc
+        //
     }
 
     private static List<Person> getPeople() {
