@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// Read input data from buffered reader
+// Read input data from keyboard via buffered reader
 public class ReadDataFromBufferedReader {
 
     public static void main(String[] args) {
@@ -20,9 +20,7 @@ public class ReadDataFromBufferedReader {
         } catch (IOException ioException) {
             //System.out.println(ioException);
             ioException.printStackTrace();
-        } catch (Exception exception) {
-            exception.printStackTrace();
-    }
+        }
     }
 
 }

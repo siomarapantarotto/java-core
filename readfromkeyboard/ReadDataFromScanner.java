@@ -2,7 +2,7 @@ package readfromkeyboard;
 
 import java.util.*;
 
-// Read input data from scanner
+// Read input data from keyboard via scanner
 public class ReadDataFromScanner {
 
     public static void main (String[] args) {
